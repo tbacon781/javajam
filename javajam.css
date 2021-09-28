@@ -1,18 +1,56 @@
 body {
+  background-image: url(images/background.gif);
   background-color: #fcebb6;
   color: #221811;
   font-family: Verdana, arial, sans-serif;
 }
 
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 2em;
+  display: block;
+}
+
+header {
+  background-color: #d2b48c;
+  height: 150px;
+  background-image: url(images/javajamlogo.jpg);
+  background-repeat: no-repeat;
+}
+
 h1 {
   text-align: center;
+  padding-top: 45px;
+  padding-left: 220px;
+  font-size: 3em;
+}
+
+h4 {
   background-color: #d2b48c;
-  line-height: 200%;
+  font-size: 1.2em;
+  padding-left: 0.5em;
+  padding-bottom: 0.25em;
 }
 
 nav {
   text-align: center;
   font-weight: bold;
+  font-size: 1.5em;
+  padding-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 footer {
@@ -20,10 +58,33 @@ footer {
   font-size: 0.6em;
   font-style: italic;
   text-align: center;
+  padding-bottom: 10px;
+  border-top: 2px solid #221811;
 }
 
 #wrapper {
+  background-color: #fef6c2;
+  min-width: 900px;
+  max-width: 1280px;
+  box-shadow: 5px 5px 5px #1e1e1e;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.winding-road {
+  width: 640;
+  height: 480;
+  float: right;
+}
+
+.mugs-container {
+  width: auto;
+  height: auto;
+  float: right;
+}
+
+.details {
+  padding-left: 20%;
+  padding-right: 20%;
 }
