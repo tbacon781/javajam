@@ -6,9 +6,11 @@ body {
 }
 
 main {
-  padding-left: 2em;
-  padding-right: 2em;
-  padding-bottom: 2em;
+  margin-left: 200px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  background-color: #fef6c2;
   display: block;
 }
 
@@ -17,6 +19,7 @@ header {
   height: 150px;
   background-image: url(images/javajamlogo.jpg);
   background-repeat: no-repeat;
+  display: block;
 }
 
 h1 {
@@ -26,22 +29,84 @@ h1 {
   font-size: 3em;
 }
 
+h2 {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+h3 {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
 h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
-  padding-left: 0.5em;
-  padding-bottom: 0.25em;
+  padding-left: 3em;
+  padding-right: 2em;
+  padding-bottom: 0em;
+  text-transform: uppercase;
+  border-bottom: solid;
+  clear: left;
+}
+
+p {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+div {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+dd {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+dt {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+ul {
+  padding-left: 3em;
+  padding-right: 2em;
+}
+
+dl {
+  padding-left: 3em;
+  padding-right: 2em;
 }
 
 nav {
-  text-align: center;
   font-weight: bold;
   font-size: 1.5em;
   padding-top: 10px;
+  float: left;
+  width: 200px;
+  display: block;
 }
 
 nav a {
   text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a:link {
+  color: #fef6c2;
+}
+a:visited {
+  color: #d2b48c;
+}
+
+a:hover {
+  color: #cc9933;
 }
 
 a {
@@ -60,16 +125,39 @@ footer {
   text-align: center;
   padding-bottom: 10px;
   border-top: 2px solid #221811;
+  display: block;
 }
 
 #wrapper {
-  background-color: #fef6c2;
+  background-color: #231814;
   min-width: 900px;
   max-width: 1280px;
   box-shadow: 5px 5px 5px #1e1e1e;
   width: 80%;
   margin-right: auto;
   margin-left: auto;
+  box-sizing: border-box;
+}
+
+#heroroad {
+  background-image: url(images/heroroad.jpg);
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#heromugs {
+  background-image: url(images/heromugs.jpg);
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+#heroguitar {
+  background-image: url(images/heroguitar.jpg);
+  background-size: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
 }
 
 .winding-road {
@@ -87,4 +175,11 @@ footer {
 .details {
   padding-left: 20%;
   padding-right: 20%;
+  overflow: auto;
+}
+
+.floatleft {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
 }
