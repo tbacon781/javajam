@@ -128,6 +128,27 @@ footer {
   display: block;
 }
 
+table {
+  display: center;
+  width: 90%;
+  border-spacing: 0;
+  background-color: #fef6c2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  padding: 10px;
+}
+
+th {
+  padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #d2b48e;
+}
+
 #wrapper {
   background-color: #231814;
   min-width: 900px;
