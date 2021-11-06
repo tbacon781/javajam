@@ -60,6 +60,28 @@ div {
   padding-right: 2em;
 }
 
+form {
+  padding: 2em;
+}
+
+label {
+  float: left;
+  display: block;
+  text-align: right;
+  width: 8em;
+  padding-right: 1em;
+}
+
+input {
+  display: block;
+  margin-bottom: 1em;
+}
+
+textarea {
+  display: block;
+  margin-bottom: 1em;
+}
+
 dd {
   padding-left: 3em;
   padding-right: 2em;
@@ -158,6 +180,16 @@ tr:nth-of-type(odd) {
   margin-right: auto;
   margin-left: auto;
   box-sizing: border-box;
+}
+
+#mySubmit {
+  margin-left: 9.5em;
+}
+
+#herojobs {
+  height: 250px;
+  background-image: url(images/herojobs.jpg);
+  background-size: 100% 100%;
 }
 
 #heroroad {
@@ -271,6 +303,10 @@ tr:nth-of-type(odd) {
     padding: 0;
     margin: 0;
   }
+  #herojobs {
+    padding: 0;
+    margin: 0;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -319,6 +355,10 @@ tr:nth-of-type(odd) {
     height: auto;
   }
   #heroguitar {
+    background-image: none;
+    height: auto;
+  }
+  #herojobs {
     background-image: none;
     height: auto;
   }
