@@ -44,7 +44,7 @@ h4 {
   font-size: 1.2em;
   padding-left: 3em;
   padding-right: 2em;
-  padding-bottom: 0em;
+  padding-bottom: 0;
   text-transform: uppercase;
   border-bottom: solid;
   clear: left;
@@ -58,6 +58,11 @@ p {
 div {
   padding-left: 3em;
   padding-right: 2em;
+}
+
+audio {
+  display: block;
+  margin-top: 1em;
 }
 
 form {
@@ -146,7 +151,6 @@ footer {
   font-style: italic;
   text-align: center;
   padding-bottom: 10px;
-  border-top: 2px solid #221811;
   display: block;
 }
 
@@ -225,6 +229,10 @@ tr:nth-of-type(odd) {
   width: 640;
   height: 480;
   float: right;
+}
+
+.audiospace {
+  margin-bottom: 1.6em;
 }
 
 .mugs-container {
